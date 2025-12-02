@@ -1,3 +1,4 @@
+{-# OPTIONS_GHC -Wno-unused-top-binds #-}
 module Day1(d1p1, d1p2)
 where
 
@@ -21,12 +22,6 @@ num_zeros input = nz dial_start 0 input -- assumption dial_start != 0
   where
     nz acc_val acc_z (x:xs) =  nz (mod (acc_val + x) dial_num) (if acc_val == 0 then (acc_z+1) else acc_z) xs
     nz acc_val acc_z [] = acc_z + (if acc_val == 0 then 1 else 0)
-
-num_zeros2 :: [Int] -> Int 
-num_zeros2 input = nz dial_start 0 input -- assumption dial_start != 0
-  where
-    nz acc_val acc_z (x:xs) = let s = acc_val + x in  nz (mod (acc_val + x) dial_num) (if (s <= 0 || s >= 100) && acc_val /= 0 then acc_z + 1 + (div ((abs s) - acc_val) dial_num) else acc_z) xs
-    nz _ acc_z [] = acc_z
 
 zero_passes :: [Int] -> Int
 zero_passes inp = zp inp dial_start 0
