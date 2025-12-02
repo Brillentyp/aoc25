@@ -26,6 +26,7 @@ source-repository head
 library
   exposed-modules:
       Day1
+      Day2
       Lib
   other-modules:
       Paths_aoc25
@@ -36,6 +37,7 @@ library
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
   build-depends:
       base >=4.7 && <5
+    , split
   default-language: Haskell2010
 
 executable aoc25-exe
@@ -50,6 +52,7 @@ executable aoc25-exe
   build-depends:
       aoc25
     , base >=4.7 && <5
+    , split
   default-language: Haskell2010
 
 test-suite aoc25-test
@@ -65,4 +68,5 @@ test-suite aoc25-test
   build-depends:
       aoc25
     , base >=4.7 && <5
+    , split
   default-language: Haskell2010
