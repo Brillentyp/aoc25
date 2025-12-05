@@ -23,6 +23,9 @@ dependencies:
 - base >= 4.7 && < 5
 - split
 - containers
+# - SegmentTree
+# - range-set-list
+- Ranged-sets
 
 ghc-options:
 - -Wall

@@ -18,4 +18,32 @@ packages:
       size: 2954
   original:
     hackage: containers-0.7
+- completed:
+    hackage: Ranged-sets-0.5.0@sha256:9726236d6c6bfbfd438f1302086e2dc442471168f28f4673b0ea8f6469e003ba,1522
+    pantry-tree:
+      sha256: 9a0de3da602765879b2ebf3a9bc8dc82b969c4d10705deade1a8c82c3c53bd8c
+      size: 566
+  original:
+    hackage: Ranged-sets-0.5.0
+- completed:
+    hackage: QuickCheck-2.17.1.0@sha256:8f67f5f1acd1db9c8a247e60ad7fbece61850ee9973629e3f6ee7d277e97d0c1,8647
+    pantry-tree:
+      sha256: 265e219387b532769fcdd7b44a11289d99590336a5f4dfa198945d62cdd65471
+      size: 2809
+  original:
+    hackage: QuickCheck-2.17.1.0@sha256:8f67f5f1acd1db9c8a247e60ad7fbece61850ee9973629e3f6ee7d277e97d0c1,8647
+- completed:
+    hackage: random-1.3.1@sha256:0b4f649c3e78713b2ccad1535251ee34b148237fb2229d7058c2b1d9ccc324b8,6004
+    pantry-tree:
+      sha256: 9e92209c00b0c00b7d1c503e15a27b67b74ac2e3b48269a9255893b06de6836c
+      size: 1667
+  original:
+    hackage: random-1.3.1@sha256:0b4f649c3e78713b2ccad1535251ee34b148237fb2229d7058c2b1d9ccc324b8,6004
+- completed:
+    hackage: splitmix-0.1.3.1@sha256:d0002f3fb16a2cc5ba8afd47a6657726386edccfe8853d310e3479fe3b45201b,6552
+    pantry-tree:
+      sha256: ee5cc5c14fc38941b91318872f8fe131881b35379a1b5b2b563ba739417661af
+      size: 1642
+  original:
+    hackage: splitmix-0.1.3.1@sha256:d0002f3fb16a2cc5ba8afd47a6657726386edccfe8853d310e3479fe3b45201b,6552
 snapshots: []
