@@ -26,6 +26,7 @@ dependencies:
 # - SegmentTree
 # - range-set-list
 - Ranged-sets
+- digits
 
 ghc-options:
 - -Wall

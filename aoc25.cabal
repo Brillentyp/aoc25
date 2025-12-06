@@ -30,6 +30,7 @@ library
       Day3
       Day4
       Day5
+      Day6
       Lib
   other-modules:
       Paths_aoc25
@@ -42,6 +43,7 @@ library
       Ranged-sets
     , base >=4.7 && <5
     , containers
+    , digits
     , split
   default-language: Haskell2010
 
@@ -59,6 +61,7 @@ executable aoc25-exe
     , aoc25
     , base >=4.7 && <5
     , containers
+    , digits
     , split
   default-language: Haskell2010
 
@@ -77,5 +80,6 @@ test-suite aoc25-test
     , aoc25
     , base >=4.7 && <5
     , containers
+    , digits
     , split
   default-language: Haskell2010

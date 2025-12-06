@@ -46,4 +46,11 @@ packages:
       size: 1642
   original:
     hackage: splitmix-0.1.3.1@sha256:d0002f3fb16a2cc5ba8afd47a6657726386edccfe8853d310e3479fe3b45201b,6552
+- completed:
+    hackage: digits-0.3.2@sha256:d02b36915721728796ffc7d159da6086ec7cdbe468c1634fbf094240d6ced18a,1051
+    pantry-tree:
+      sha256: 2fc10a5dcded1af046b9fcf31fc6b0211a7d020298d91139df4d72700c3b9afd
+      size: 267
+  original:
+    hackage: digits-0.3.2
 snapshots: []
